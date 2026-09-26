@@ -14,12 +14,19 @@ export default function Analyzer() {
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [errorMsg, setErrorMsg] = useState('');
 
-  const [steps, setSteps] = useState([
-    { label: 'Uploading secure document', status: 'pending' as const },
-    { label: 'Running multimodal OCR extraction', status: 'pending' as const },
-    { label: 'Identifying medicines and context', status: 'pending' as const },
-    { label: 'Fetching Ayurveda integration data', status: 'pending' as const },
-  ]);
+type StepStatus = 'pending' | 'active' | 'done';
+
+type Step = {
+  label: string;
+  status: StepStatus;
+};
+
+const [steps, setSteps] = useState<Step[]>([
+  { label: 'Uploading secure document', status: 'pending' },
+  { label: 'Running multimodal OCR extraction', status: 'pending' },
+  { label: 'Identifying medicines and context', status: 'pending' },
+  { label: 'Fetching Ayurveda integration data', status: 'pending' },
+]);
 
   const handleFileSelect = (selectedFile: File) => {
     setFile(selectedFile);
