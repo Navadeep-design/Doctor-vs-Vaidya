@@ -1,0 +1,632 @@
+[
+  {
+    "id": "med-001",
+    "medicine_name": "Paracetamol",
+    "generic_name": "Acetaminophen",
+    "brand_examples": ["Crocin", "Dolo", "Calpol", "Tylenol"],
+    "drug_class": "Analgesic / Antipyretic",
+    "route": "Oral / IV",
+    "medical_category": "Pain & Fever",
+    "common_strengths": ["500mg", "650mg", "1000mg"],
+    "common_medical_uses": [
+      "Fever reduction",
+      "Mild to moderate pain relief",
+      "Headache",
+      "Body ache"
+    ],
+    "general_mechanism": "Inhibits prostaglandin synthesis in the CNS; acts on hypothalamic heat-regulation centers to reduce fever.",
+    "common_side_effects": [
+      "Generally well tolerated at recommended doses",
+      "Nausea (rare)",
+      "Hepatotoxicity at high doses"
+    ],
+    "major_safety_considerations": [
+      "Do not exceed recommended daily dose",
+      "Avoid alcohol while taking paracetamol",
+      "Use with caution in liver disease",
+      "Overdose can cause severe liver damage"
+    ],
+    "drug_interactions": ["Warfarin (mild)", "Alcohol (hepatotoxicity risk)"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-002",
+    "medicine_name": "Ibuprofen",
+    "generic_name": "Ibuprofen",
+    "brand_examples": ["Brufen", "Advil", "Nurofen"],
+    "drug_class": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "route": "Oral",
+    "medical_category": "Pain & Inflammation",
+    "common_strengths": ["200mg", "400mg", "600mg"],
+    "common_medical_uses": [
+      "Fever",
+      "Pain relief",
+      "Inflammation",
+      "Arthritis",
+      "Dysmenorrhea"
+    ],
+    "general_mechanism": "Non-selective COX-1 and COX-2 inhibitor; reduces prostaglandin synthesis, thereby decreasing inflammation, pain, and fever.",
+    "common_side_effects": [
+      "Gastric irritation",
+      "Nausea",
+      "Headache",
+      "Dizziness"
+    ],
+    "major_safety_considerations": [
+      "Take with food to reduce gastric irritation",
+      "Avoid in peptic ulcer disease",
+      "Use with caution in renal impairment",
+      "Avoid in third trimester of pregnancy",
+      "May increase cardiovascular risk with long-term use"
+    ],
+    "drug_interactions": ["Aspirin", "Warfarin", "Lithium", "Methotrexate"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF"]
+  },
+  {
+    "id": "med-003",
+    "medicine_name": "Amoxicillin",
+    "generic_name": "Amoxicillin",
+    "brand_examples": ["Amoxil", "Novamox", "Trimox"],
+    "drug_class": "Beta-lactam antibiotic (Aminopenicillin)",
+    "route": "Oral",
+    "medical_category": "Antibiotics",
+    "common_strengths": ["250mg", "500mg", "875mg"],
+    "common_medical_uses": [
+      "Bacterial infections",
+      "Ear infections (otitis media)",
+      "Throat infections",
+      "Urinary tract infections",
+      "Pneumonia (mild)"
+    ],
+    "general_mechanism": "Inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), leading to cell lysis and death.",
+    "common_side_effects": [
+      "Diarrhea",
+      "Nausea",
+      "Skin rash",
+      "Allergic reactions (including anaphylaxis in susceptible individuals)"
+    ],
+    "major_safety_considerations": [
+      "Complete the full course as prescribed",
+      "Inform prescriber of penicillin allergy",
+      "Not effective against viral infections"
+    ],
+    "drug_interactions": ["Warfarin", "Methotrexate", "Oral contraceptives (minor)"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-004",
+    "medicine_name": "Metformin",
+    "generic_name": "Metformin Hydrochloride",
+    "brand_examples": ["Glucophage", "Glycomet", "Obimet"],
+    "drug_class": "Biguanide / Antidiabetic",
+    "route": "Oral",
+    "medical_category": "Diabetes Management",
+    "common_strengths": ["500mg", "850mg", "1000mg"],
+    "common_medical_uses": [
+      "Type 2 diabetes mellitus management",
+      "Polycystic ovary syndrome (PCOS) — off-label",
+      "Insulin resistance"
+    ],
+    "general_mechanism": "Primarily reduces hepatic glucose production (gluconeogenesis); improves insulin sensitivity in peripheral tissues; does not cause hypoglycemia when used alone.",
+    "common_side_effects": [
+      "Gastrointestinal upset (nausea, diarrhea, abdominal discomfort)",
+      "Metallic taste",
+      "Vitamin B12 deficiency with long-term use"
+    ],
+    "major_safety_considerations": [
+      "Contraindicated in severe renal impairment (eGFR < 30)",
+      "Hold before iodinated contrast procedures",
+      "Lactic acidosis (rare but serious)",
+      "Monitor kidney function regularly"
+    ],
+    "drug_interactions": ["Contrast dye", "Alcohol", "Furosemide"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["ADA Standards of Care", "WHO Essential Medicines", "BNF"]
+  },
+  {
+    "id": "med-005",
+    "medicine_name": "Omeprazole",
+    "generic_name": "Omeprazole",
+    "brand_examples": ["Omez", "Prilosec", "Losec"],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "route": "Oral",
+    "medical_category": "Gastrointestinal",
+    "common_strengths": ["20mg", "40mg"],
+    "common_medical_uses": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "H. pylori eradication (in combination)",
+      "Prevention of NSAID-induced ulcers"
+    ],
+    "general_mechanism": "Irreversibly inhibits the H+/K+ ATPase (proton pump) in gastric parietal cells, reducing acid secretion.",
+    "common_side_effects": [
+      "Headache",
+      "Diarrhea",
+      "Nausea",
+      "Abdominal pain"
+    ],
+    "major_safety_considerations": [
+      "Long-term use may affect magnesium and B12 levels",
+      "Increased risk of C. difficile infection",
+      "Use lowest effective dose for shortest duration",
+      "May reduce efficacy of clopidogrel"
+    ],
+    "drug_interactions": ["Clopidogrel", "Methotrexate", "Warfarin"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "FDA approved", "NICE guidelines"]
+  },
+  {
+    "id": "med-006",
+    "medicine_name": "Cetirizine",
+    "generic_name": "Cetirizine Hydrochloride",
+    "brand_examples": ["Zyrtec", "Cetzine", "Alerid"],
+    "drug_class": "Second-generation Antihistamine",
+    "route": "Oral",
+    "medical_category": "Allergy",
+    "common_strengths": ["5mg", "10mg"],
+    "common_medical_uses": [
+      "Allergic rhinitis",
+      "Urticaria (hives)",
+      "Allergic conjunctivitis",
+      "Seasonal and perennial allergies"
+    ],
+    "general_mechanism": "Selective H1 receptor antagonist; blocks histamine-mediated allergic response with minimal CNS penetration compared to first-generation antihistamines.",
+    "common_side_effects": [
+      "Drowsiness (mild)",
+      "Dry mouth",
+      "Headache",
+      "Fatigue"
+    ],
+    "major_safety_considerations": [
+      "May cause drowsiness — caution when driving",
+      "Use with caution in renal impairment",
+      "Avoid alcohol"
+    ],
+    "drug_interactions": ["CNS depressants", "Alcohol"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "FDA approved"]
+  },
+  {
+    "id": "med-007",
+    "medicine_name": "Atorvastatin",
+    "generic_name": "Atorvastatin Calcium",
+    "brand_examples": ["Lipitor", "Atorva", "Storvas"],
+    "drug_class": "HMG-CoA Reductase Inhibitor (Statin)",
+    "route": "Oral",
+    "medical_category": "Cardiovascular / Lipid Management",
+    "common_strengths": ["10mg", "20mg", "40mg", "80mg"],
+    "common_medical_uses": [
+      "Hypercholesterolemia (high cholesterol)",
+      "Prevention of cardiovascular events",
+      "Dyslipidemia",
+      "Familial hypercholesterolemia"
+    ],
+    "general_mechanism": "Inhibits HMG-CoA reductase — the rate-limiting enzyme in hepatic cholesterol synthesis — thereby reducing LDL cholesterol.",
+    "common_side_effects": [
+      "Muscle pain (myalgia)",
+      "Elevated liver enzymes (rare)",
+      "Headache",
+      "Gastrointestinal discomfort"
+    ],
+    "major_safety_considerations": [
+      "Monitor liver enzymes periodically",
+      "Rarely: myopathy / rhabdomyolysis",
+      "Avoid grapefruit juice (increases drug levels)",
+      "Contraindicated in active liver disease",
+      "Contraindicated in pregnancy"
+    ],
+    "drug_interactions": ["Fibrates", "Niacin", "Cyclosporine", "Grapefruit juice", "Warfarin"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["ACC/AHA guidelines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-008",
+    "medicine_name": "Amlodipine",
+    "generic_name": "Amlodipine Besylate",
+    "brand_examples": ["Norvasc", "Amlip", "Stamlo"],
+    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "route": "Oral",
+    "medical_category": "Cardiovascular / Hypertension",
+    "common_strengths": ["2.5mg", "5mg", "10mg"],
+    "common_medical_uses": [
+      "Hypertension (high blood pressure)",
+      "Angina pectoris",
+      "Coronary artery disease"
+    ],
+    "general_mechanism": "Blocks L-type voltage-gated calcium channels in vascular smooth muscle and cardiac muscle, causing vasodilation and reducing blood pressure.",
+    "common_side_effects": [
+      "Peripheral edema (ankle swelling)",
+      "Flushing",
+      "Headache",
+      "Dizziness",
+      "Palpitations"
+    ],
+    "major_safety_considerations": [
+      "Monitor blood pressure regularly",
+      "Do not abruptly discontinue without medical advice",
+      "Use with caution in severe aortic stenosis",
+      "Avoid grapefruit juice"
+    ],
+    "drug_interactions": ["CYP3A4 inhibitors", "Simvastatin (high dose)", "Cyclosporine"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "JNC 8 guidelines", "FDA approved"]
+  },
+  {
+    "id": "med-009",
+    "medicine_name": "Azithromycin",
+    "generic_name": "Azithromycin",
+    "brand_examples": ["Zithromax", "Azee", "Azithral"],
+    "drug_class": "Macrolide Antibiotic",
+    "route": "Oral",
+    "medical_category": "Antibiotics",
+    "common_strengths": ["250mg", "500mg"],
+    "common_medical_uses": [
+      "Community-acquired pneumonia",
+      "Pharyngitis / Tonsillitis (penicillin-allergic patients)",
+      "Skin and soft tissue infections",
+      "Sexually transmitted infections (chlamydia)"
+    ],
+    "general_mechanism": "Binds to the 50S ribosomal subunit of bacteria, inhibiting protein synthesis and thereby stopping bacterial growth (bacteriostatic; bactericidal at high concentrations).",
+    "common_side_effects": [
+      "Nausea",
+      "Diarrhea",
+      "Abdominal pain",
+      "QT prolongation (rare)"
+    ],
+    "major_safety_considerations": [
+      "Complete the full prescribed course",
+      "Avoid in patients with QT prolongation or cardiac arrhythmias",
+      "Use with caution in liver disease",
+      "Not effective against viral infections"
+    ],
+    "drug_interactions": ["Warfarin", "Antacids (reduce absorption)", "QT-prolonging drugs"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-010",
+    "medicine_name": "Glibenclamide",
+    "generic_name": "Glibenclamide (Glyburide)",
+    "brand_examples": ["Daonil", "Glynase", "Euglucon"],
+    "drug_class": "Sulfonylurea / Antidiabetic",
+    "route": "Oral",
+    "medical_category": "Diabetes Management",
+    "common_strengths": ["2.5mg", "5mg"],
+    "common_medical_uses": [
+      "Type 2 diabetes mellitus (when diet and metformin are insufficient)"
+    ],
+    "general_mechanism": "Stimulates insulin secretion from pancreatic beta cells by blocking ATP-sensitive potassium channels, resulting in cell depolarization and calcium-dependent insulin release.",
+    "common_side_effects": [
+      "Hypoglycemia (low blood sugar)",
+      "Weight gain",
+      "Nausea",
+      "Skin reactions"
+    ],
+    "major_safety_considerations": [
+      "Risk of hypoglycemia — do not skip meals",
+      "Use with caution in renal/hepatic impairment",
+      "Not recommended in elderly patients (high hypoglycemia risk)",
+      "Monitor blood glucose regularly"
+    ],
+    "drug_interactions": ["Fluconazole", "NSAIDs", "Sulfonamides", "Alcohol"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "ADA Standards of Care"]
+  },
+  {
+    "id": "med-011",
+    "medicine_name": "Pantoprazole",
+    "generic_name": "Pantoprazole Sodium",
+    "brand_examples": ["Pantodac", "Protonix", "Pantop"],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "route": "Oral / IV",
+    "medical_category": "Gastrointestinal",
+    "common_strengths": ["20mg", "40mg"],
+    "common_medical_uses": [
+      "GERD",
+      "Erosive esophagitis",
+      "Peptic ulcer disease",
+      "Zollinger-Ellison syndrome"
+    ],
+    "general_mechanism": "Irreversibly binds to and inhibits H+/K+ ATPase in gastric parietal cells, suppressing gastric acid secretion.",
+    "common_side_effects": ["Headache", "Diarrhea", "Abdominal pain"],
+    "major_safety_considerations": [
+      "Similar to other PPIs — use lowest effective dose",
+      "Long-term use: monitor for hypomagnesemia and B12 deficiency"
+    ],
+    "drug_interactions": ["Methotrexate", "Clopidogrel (less interaction than omeprazole)"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "FDA approved"]
+  },
+  {
+    "id": "med-012",
+    "medicine_name": "Metronidazole",
+    "generic_name": "Metronidazole",
+    "brand_examples": ["Flagyl", "Metrogyl", "Metrocin"],
+    "drug_class": "Nitroimidazole Antibiotic / Antiprotozoal",
+    "route": "Oral / IV / Topical",
+    "medical_category": "Antibiotics / Antiprotozoal",
+    "common_strengths": ["200mg", "400mg", "500mg"],
+    "common_medical_uses": [
+      "Anaerobic bacterial infections",
+      "H. pylori eradication (in combination)",
+      "Amoebiasis",
+      "Giardiasis",
+      "Trichomoniasis",
+      "Dental infections"
+    ],
+    "general_mechanism": "Enters anaerobic bacteria/parasites and is reduced to toxic reactive intermediates that damage DNA, leading to cell death.",
+    "common_side_effects": [
+      "Metallic taste",
+      "Nausea",
+      "Headache",
+      "Dark urine (harmless)"
+    ],
+    "major_safety_considerations": [
+      "Avoid alcohol during treatment and 48 hours after (disulfiram-like reaction)",
+      "Use with caution in CNS disease",
+      "Complete the full course"
+    ],
+    "drug_interactions": ["Alcohol (disulfiram reaction)", "Warfarin", "Lithium"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-013",
+    "medicine_name": "Levothyroxine",
+    "generic_name": "Levothyroxine Sodium (T4)",
+    "brand_examples": ["Eltroxin", "Synthroid", "Thyronorm"],
+    "drug_class": "Thyroid Hormone Replacement",
+    "route": "Oral",
+    "medical_category": "Endocrinology / Thyroid",
+    "common_strengths": ["25mcg", "50mcg", "75mcg", "100mcg"],
+    "common_medical_uses": [
+      "Hypothyroidism",
+      "Thyroid hormone replacement after thyroidectomy",
+      "TSH suppression in thyroid cancer"
+    ],
+    "general_mechanism": "Synthetic form of the thyroid hormone T4 (thyroxine); converted to the active T3 in peripheral tissues, regulating metabolism, growth, and development.",
+    "common_side_effects": [
+      "At excess doses: palpitations, tremor, insomnia, weight loss",
+      "Hair loss (transient)",
+      "Generally minimal at correct dose"
+    ],
+    "major_safety_considerations": [
+      "Take on an empty stomach, 30-60 minutes before food",
+      "Many drugs affect absorption — consult pharmacist",
+      "Regular TSH monitoring required",
+      "Do not stop without medical advice"
+    ],
+    "drug_interactions": ["Calcium supplements", "Iron supplements", "Antacids", "Cholestyramine"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["ATA Guidelines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-014",
+    "medicine_name": "Salbutamol",
+    "generic_name": "Salbutamol (Albuterol)",
+    "brand_examples": ["Asthalin", "Ventolin", "Proventil"],
+    "drug_class": "Short-acting Beta-2 Agonist (SABA) / Bronchodilator",
+    "route": "Inhaled / Oral / Nebulized",
+    "medical_category": "Respiratory",
+    "common_strengths": ["100mcg/puff inhaler", "2mg/5ml syrup", "2.5mg nebulization"],
+    "common_medical_uses": [
+      "Bronchospasm relief in asthma",
+      "Chronic obstructive pulmonary disease (COPD)",
+      "Exercise-induced bronchospasm"
+    ],
+    "general_mechanism": "Selective agonist of beta-2 adrenergic receptors in bronchial smooth muscle; causes bronchodilation by relaxing airway smooth muscle.",
+    "common_side_effects": [
+      "Tremor (hands)",
+      "Tachycardia",
+      "Headache",
+      "Palpitations",
+      "Hypokalemia at high doses"
+    ],
+    "major_safety_considerations": [
+      "Overuse may indicate poor asthma control — seek medical review",
+      "Use with caution in cardiovascular disease",
+      "Correct inhaler technique is essential"
+    ],
+    "drug_interactions": ["Beta-blockers (oppose effect)", "Digoxin", "Diuretics (hypokalemia)"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["GINA Guidelines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-015",
+    "medicine_name": "Aspirin",
+    "generic_name": "Acetylsalicylic Acid",
+    "brand_examples": ["Ecosprin", "Disprin", "Aspro"],
+    "drug_class": "Antiplatelet / NSAID",
+    "route": "Oral",
+    "medical_category": "Cardiovascular / Pain",
+    "common_strengths": ["75mg", "100mg", "150mg", "300mg", "500mg"],
+    "common_medical_uses": [
+      "Antiplatelet therapy (preventing heart attack and stroke)",
+      "Pain relief (higher doses)",
+      "Fever reduction",
+      "Anti-inflammatory (higher doses)"
+    ],
+    "general_mechanism": "Irreversibly inhibits COX-1 and COX-2; at low doses reduces thromboxane A2 production in platelets, inhibiting platelet aggregation.",
+    "common_side_effects": [
+      "Gastric irritation",
+      "GI bleeding",
+      "Tinnitus at high doses",
+      "Increased bleeding tendency"
+    ],
+    "major_safety_considerations": [
+      "Do not give to children under 16 (Reye's syndrome risk)",
+      "Avoid in active peptic ulcer",
+      "Increases bleeding risk — inform surgeons / dentists",
+      "Use with caution in asthma"
+    ],
+    "drug_interactions": ["Warfarin", "Other NSAIDs", "Methotrexate", "ACE inhibitors"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "ACC/AHA guidelines", "BNF"]
+  },
+  {
+    "id": "med-016",
+    "medicine_name": "Doxycycline",
+    "generic_name": "Doxycycline Hyclate / Monohydrate",
+    "brand_examples": ["Vibramycin", "Doxylin", "Tetradox"],
+    "drug_class": "Tetracycline Antibiotic",
+    "route": "Oral",
+    "medical_category": "Antibiotics",
+    "common_strengths": ["100mg", "200mg"],
+    "common_medical_uses": [
+      "Respiratory tract infections",
+      "Acne vulgaris",
+      "Malaria prophylaxis",
+      "Chlamydia",
+      "Lyme disease",
+      "Rickettsial infections"
+    ],
+    "general_mechanism": "Inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit, preventing aminoacyl-tRNA from binding to the mRNA-ribosome complex.",
+    "common_side_effects": [
+      "Photosensitivity",
+      "Nausea",
+      "Esophageal irritation",
+      "Yeast infections"
+    ],
+    "major_safety_considerations": [
+      "Take with plenty of water; do not lie down for 30 minutes",
+      "Avoid sun exposure / use sunscreen",
+      "Contraindicated in pregnancy and children under 8",
+      "Dairy products may reduce absorption"
+    ],
+    "drug_interactions": ["Antacids", "Iron supplements", "Penicillins", "Warfarin"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["WHO Essential Medicines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-017",
+    "medicine_name": "Montelukast",
+    "generic_name": "Montelukast Sodium",
+    "brand_examples": ["Singulair", "Montair", "Romilast"],
+    "drug_class": "Leukotriene Receptor Antagonist",
+    "route": "Oral",
+    "medical_category": "Respiratory / Allergy",
+    "common_strengths": ["4mg", "5mg", "10mg"],
+    "common_medical_uses": [
+      "Prophylaxis and chronic treatment of asthma",
+      "Allergic rhinitis",
+      "Exercise-induced bronchospasm prevention"
+    ],
+    "general_mechanism": "Blocks cysteinyl leukotriene type 1 (CysLT1) receptors; leukotrienes are inflammatory mediators involved in asthma and allergic rhinitis.",
+    "common_side_effects": [
+      "Headache",
+      "Abdominal pain",
+      "Behavioral/mood changes (neuropsychiatric events — FDA boxed warning)"
+    ],
+    "major_safety_considerations": [
+      "FDA boxed warning: serious neuropsychiatric events",
+      "Monitor for mood changes, depression, suicidal thoughts",
+      "Not for acute asthma attacks — use rescue inhaler"
+    ],
+    "drug_interactions": ["Phenobarbital", "Rifampicin"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["GINA Guidelines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-018",
+    "medicine_name": "Losartan",
+    "generic_name": "Losartan Potassium",
+    "brand_examples": ["Cozaar", "Repace", "Losium"],
+    "drug_class": "Angiotensin II Receptor Blocker (ARB)",
+    "route": "Oral",
+    "medical_category": "Cardiovascular / Hypertension",
+    "common_strengths": ["25mg", "50mg", "100mg"],
+    "common_medical_uses": [
+      "Hypertension",
+      "Heart failure",
+      "Diabetic nephropathy (kidney protection in diabetes)",
+      "Stroke prevention in hypertension with LVH"
+    ],
+    "general_mechanism": "Blocks angiotensin II type 1 (AT1) receptors; prevents angiotensin II-mediated vasoconstriction, sodium retention, and aldosterone secretion — thereby reducing blood pressure.",
+    "common_side_effects": [
+      "Dizziness",
+      "Hyperkalemia (high potassium)",
+      "Elevated creatinine",
+      "Rarely: angioedema"
+    ],
+    "major_safety_considerations": [
+      "Contraindicated in pregnancy",
+      "Monitor potassium and kidney function",
+      "Avoid potassium supplements unless directed",
+      "Do not stop without medical advice"
+    ],
+    "drug_interactions": ["Potassium-sparing diuretics", "NSAIDs", "Lithium"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["JNC 8 guidelines", "BNF", "FDA approved"]
+  },
+  {
+    "id": "med-019",
+    "medicine_name": "Diclofenac",
+    "generic_name": "Diclofenac Sodium",
+    "brand_examples": ["Voveran", "Voltaren", "Diclomol"],
+    "drug_class": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "route": "Oral / Topical / IM",
+    "medical_category": "Pain & Inflammation",
+    "common_strengths": ["25mg", "50mg", "75mg", "100mg"],
+    "common_medical_uses": [
+      "Musculoskeletal pain",
+      "Arthritis (osteoarthritis, rheumatoid arthritis)",
+      "Postoperative pain",
+      "Migraine",
+      "Dysmenorrhea"
+    ],
+    "general_mechanism": "Preferential COX-2 inhibitor (also inhibits COX-1); reduces prostaglandin synthesis, decreasing inflammation and pain.",
+    "common_side_effects": [
+      "Gastric irritation",
+      "Nausea",
+      "Elevated liver enzymes",
+      "Edema"
+    ],
+    "major_safety_considerations": [
+      "Take with food",
+      "Avoid in peptic ulcer disease",
+      "Monitor liver enzymes with long-term use",
+      "May increase cardiovascular risk"
+    ],
+    "drug_interactions": ["Warfarin", "Methotrexate", "Lithium", "Antihypertensives"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "FDA approved"]
+  },
+  {
+    "id": "med-020",
+    "medicine_name": "Prednisolone",
+    "generic_name": "Prednisolone",
+    "brand_examples": ["Wysolone", "Deltacortril", "Prelone"],
+    "drug_class": "Corticosteroid (Glucocorticoid)",
+    "route": "Oral",
+    "medical_category": "Anti-inflammatory / Immunosuppressant",
+    "common_strengths": ["5mg", "10mg", "20mg", "40mg"],
+    "common_medical_uses": [
+      "Severe allergic reactions",
+      "Asthma exacerbations",
+      "Autoimmune conditions",
+      "Inflammatory bowel disease",
+      "Organ transplant rejection prevention"
+    ],
+    "general_mechanism": "Binds to glucocorticoid receptors; suppresses inflammatory gene expression, reduces immune cell activity, and inhibits production of pro-inflammatory cytokines.",
+    "common_side_effects": [
+      "Weight gain",
+      "Fluid retention",
+      "Elevated blood glucose",
+      "Mood changes",
+      "Osteoporosis (long-term)",
+      "Infection susceptibility"
+    ],
+    "major_safety_considerations": [
+      "Do not stop abruptly after long-term use (adrenal suppression)",
+      "Monitor blood glucose in diabetics",
+      "Increased infection risk",
+      "Carry a steroid card for long-term therapy"
+    ],
+    "drug_interactions": ["NSAIDs", "Antidiabetics", "Live vaccines", "Warfarin"],
+    "evidence_status": "Well-established clinical evidence",
+    "references": ["BNF", "FDA approved", "WHO Essential Medicines"]
+  }
+]
